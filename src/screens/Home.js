@@ -64,6 +64,7 @@ const styles = StyleSheet.create({
     padding: 15,
     marginVertical: 10,
     flexDirection: 'row',
+    justifyContent: 'space-between',
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.2,
@@ -76,9 +77,10 @@ const styles = StyleSheet.create({
     paddingLeft: 10,
   },
   image: {
-    width: 80,
-    height: 80,
+    width: 120, 
+    height: 120,
     borderRadius: 10,
+    marginLeft: 10, 
   },
   name: {
     fontSize: 18,
@@ -87,16 +89,17 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   button: {
-    backgroundColor: '#4CAF50',
+    backgroundColor: '#331667', 
     borderRadius: 5,
-    paddingVertical: 8,
-    paddingHorizontal: 12,
+    paddingVertical: 6, 
+    paddingHorizontal: 10,
     justifyContent: 'center',
     alignItems: 'center',
+    alignSelf: 'flex-start', 
   },
   buttonText: {
     color: '#fff',
-    fontSize: 14,
+    fontSize: 12,
     fontWeight: '600',
   },
 });
